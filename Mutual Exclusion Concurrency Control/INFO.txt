@@ -1,0 +1,7 @@
+Name: Yu Jie Zuo
+UtorID: zuoyu
+SVN #: 45
+Discussion:
+Can starvation happen when using this monitor?
+Yes, for instance, if cars come continuously from the north and south direction and cross the intersection, there could be no pauses for west and east bound cars to go through, as either the north bound, south bound, or both will be blocking.
+To solve this, we would have to implment a traffic light that only allows less than 10 cars to go through vertically or horizontally at a time.
